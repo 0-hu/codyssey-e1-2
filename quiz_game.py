@@ -359,7 +359,7 @@ class QuizGame:
 
         except KeyboardInterrupt:
             self.save_data()
-            print("\n\n👋 Ctrl+C가 감지되었습니다. 데이터를 저장하고 종료합니다.")
+            print("\n\n👋 프로그램 강제 종료(Ctrl+C)가 감지되었습니다. 데이터를 안전하게 저장하고 종료합니다.")
         except EOFError:
             self.save_data()
             print("\n\n👋 입력이 종료되었습니다. 데이터를 저장하고 종료합니다.")
