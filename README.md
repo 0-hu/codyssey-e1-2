@@ -87,3 +87,5 @@ codyssey-e1-2/
 - `play.png`: 퀴즈 풀기 화면
 - `add_quiz.png`: 퀴즈 추가 화면
 - `score.png`: 점수 확인 화면
+
+- 🌿 Git Clone/Pull 테스트 확인 완료!
