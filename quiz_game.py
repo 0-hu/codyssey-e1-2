@@ -309,7 +309,7 @@ class QuizGame:
         if self.best_score > 0:
             print(f"🏆 최고 점수: {self.best_score}점")
         else:
-            print("🏆 아직 퀴즈를 풀지 않았습니다.")
+            print("🏆 아직 퀴즈를 한 번도 풀지 않았습니다!")
 
         if self.score_history:
             print()
