@@ -179,7 +179,7 @@ class QuizGame:
         # 랜덤 출제
         selected = random.sample(self.quizzes, count)
 
-        print(f"\n📝 퀴즈를 시작합니다! (총 {count}문제)")
+        print(f"\n🚀 퀴즈를 시작합니다! 즐거운 시간 되세요! (총 {count}문제)")
         print("💡 힌트를 보려면 0을 입력하세요.")
 
         correct = 0
