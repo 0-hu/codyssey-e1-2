@@ -271,7 +271,7 @@ class QuizGame:
         self.quizzes.append(quiz)
         self.save_data()
 
-        print("\n✅ 퀴즈가 추가되었습니다!")
+        print("\n✅ 퀴즈가 성공적으로 추가되었습니다!")
 
     def list_quizzes(self) -> None:
         """등록된 퀴즈 목록을 출력한다."""
