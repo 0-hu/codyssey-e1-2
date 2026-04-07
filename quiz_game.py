@@ -279,7 +279,7 @@ class QuizGame:
             print("\n❌ 등록된 퀴즈가 없습니다.")
             return
 
-        print(f"\n📋 등록된 퀴즈 목록 (총 {len(self.quizzes)}개)")
+        print(f"\n📋 등록된 퀴즈 전체 목록 (총 {len(self.quizzes)}개)")
         print("----------------------------------------")
         for i, quiz in enumerate(self.quizzes, 1):
             print(f"[{i}] {quiz.question}")
