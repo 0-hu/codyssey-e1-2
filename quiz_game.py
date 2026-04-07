@@ -229,7 +229,7 @@ class QuizGame:
 
         if score > self.best_score:
             self.best_score = score
-            print("🎉 새로운 최고 점수입니다!")
+            print("🎉 새로운 최고 점수입니다! (축하합니다)")
 
         print("========================================")
 
